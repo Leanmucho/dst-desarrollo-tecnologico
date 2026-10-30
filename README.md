@@ -8,7 +8,7 @@ Servir `dist/` con cualquier servidor estático. El sitio usa Canvas 2D, tipogra
 
 ## Contacto
 
-Los servicios y «Iniciar un proyecto» abren un formulario modal con transición glitch y selección del servicio. Nombre, email e idea se validan y generan un borrador para acunaleandro3@gmail.com. El visitante puede abrirlo en su cliente de correo o Gmail, copiarlo o editarlo; el envío se confirma en el correo. El sitio no almacena consultas ni utiliza analítica. Respeta movimiento reducido y el control de efectos.
+Los servicios y «Iniciar un proyecto» abren un formulario modal. Envía nombre, email, servicio y mensaje directamente a Web3Forms, con destino a acunaleandro3@gmail.com, sin abrir el correo del visitante. El formulario usa un identificador público diseñado para integrarse en el navegador; no es una credencial privada. El plan gratuito admite 250 consultas/mes. Se valida la respuesta del proveedor antes de mostrar éxito; ante error conserva los campos y evita envíos simultáneos. El aviso de privacidad informa el procesamiento externo. Las barras de desplazamiento comparten el estilo oscuro y verde ácido.
 
 ## Publicación
 
