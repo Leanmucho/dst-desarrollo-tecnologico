@@ -1,0 +1,28 @@
+name: Nueva consulta de proyecto
+description: Contanos qué querés construir con DST.
+title: "[Proyecto] "
+body:
+  - type: markdown
+    attributes:
+      value: "Esta consulta es pública. No incluyas contraseñas, datos de clientes, teléfonos ni información confidencial."
+  - type: textarea
+    id: contexto
+    attributes:
+      label: ¿Qué hace tu negocio y qué querés resolver?
+      description: Compartí una descripción general, sin información privada.
+    validations:
+      required: true
+  - type: dropdown
+    id: servicio
+    attributes:
+      label: ¿Qué necesitás?
+      options:
+        - Software a medida
+        - Automatización
+        - IA aplicada
+        - Integraciones
+        - Necesito orientación
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: ¿Cómo te imaginás el resultado?
