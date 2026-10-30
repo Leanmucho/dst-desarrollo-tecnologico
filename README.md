@@ -8,7 +8,7 @@ Servir `dist/` con cualquier servidor estático. El sitio usa Canvas 2D, tipogra
 
 ## Contacto
 
-El botón «Iniciar un proyecto» abre un correo a acunaleandro3@gmail.com con asunto y guía de proyecto precargados. El visitante confirma el envío en su aplicación de correo. La dirección también queda visible como alternativa. El sitio no almacena consultas ni utiliza analítica.
+Los servicios y «Iniciar un proyecto» abren un formulario modal con transición glitch y selección del servicio. Nombre, email e idea se validan y generan un borrador para acunaleandro3@gmail.com. El visitante puede abrirlo en su cliente de correo o Gmail, copiarlo o editarlo; el envío se confirma en el correo. El sitio no almacena consultas ni utiliza analítica. Respeta movimiento reducido y el control de efectos.
 
 ## Publicación
 
