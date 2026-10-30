@@ -18,4 +18,4 @@ Referencias conceptuales de diseño: https://eloyb.design/ y https://www.rejouic
 
 ## Movimiento de portada
 
-La portada alterna cuatro frases cada 5,2 segundos con una transición de bandas glitch. La animación se pausa fuera de pantalla, con menús/diálogos abiertos, en pestañas ocultas o con movimiento reducido. El mouse deja partículas y estrellas verde ácido con algunos acentos violeta, dibujados en Canvas sin bloquear clics. La estela limita las partículas, se apaga en reposo y respeta el control EFECTOS.
+La portada alterna cuatro frases cada 5,2 segundos con una transición de bandas glitch. La animación se pausa fuera de pantalla, con menús/diálogos abiertos, en pestañas ocultas o con movimiento reducido. La estela de partículas del mouse se retiró a pedido del usuario. Se conserva el cursor circular original y la rotación de frases.
