@@ -15,3 +15,7 @@ Los servicios y «Iniciar un proyecto» abren un formulario modal. Envía nombre
 El manifiesto `.openai/hosting.json` identifica el alojamiento de Sites. El repositorio GitHub conserva una copia del código. No se afirma afiliación ni aprobación de Meta u otros proveedores.
 
 Referencias conceptuales de diseño: https://eloyb.design/ y https://www.rejouice.com/ (sin reutilizar código ni recursos).
+
+## Movimiento de portada
+
+La portada alterna cuatro frases cada 5,2 segundos con una transición de bandas glitch. La animación se pausa fuera de pantalla, con menús/diálogos abiertos, en pestañas ocultas o con movimiento reducido. El mouse deja partículas y estrellas verde ácido con algunos acentos violeta, dibujados en Canvas sin bloquear clics. La estela limita las partículas, se apaga en reposo y respeta el control EFECTOS.
