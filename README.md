@@ -8,7 +8,7 @@ Servir `dist/` con cualquier servidor estático. El sitio usa Canvas 2D, tipogra
 
 ## Contacto
 
-El canal inicial es el formulario público de consultas en GitHub Issues. Se advierte que no se deben publicar datos sensibles. No hay formularios ficticios, analítica ni almacenamiento de consultas en el sitio.
+El botón «Iniciar un proyecto» abre un correo a acunaleandro3@gmail.com con asunto y guía de proyecto precargados. El visitante confirma el envío en su aplicación de correo. La dirección también queda visible como alternativa. El sitio no almacena consultas ni utiliza analítica.
 
 ## Publicación
 
