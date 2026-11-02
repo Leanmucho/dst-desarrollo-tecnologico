@@ -26,17 +26,13 @@
   }
   const services = ['Software a medida', 'Automatización', 'IA aplicada', 'Integraciones'];
   document.querySelectorAll('.service-list details').forEach((detail, index) => {
-    const summary = detail.querySelector('summary');
-    summary.setAttribute('aria-haspopup', 'dialog');
-    summary.setAttribute('aria-controls', 'projectDialog');
-    summary.addEventListener('click', event => {
-      event.preventDefault();
-      detail.open = true;
-      openProject(services[index]);
-    });
+    // El encabezado conserva el comportamiento nativo de details: mouse,
+    // Enter y Espacio muestran/ocultan el servicio sin abrir el contacto.
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'service-contact';
+    button.setAttribute('aria-haspopup', 'dialog');
+    button.setAttribute('aria-controls', 'projectDialog');
     button.textContent = 'CONSULTAR ESTE SERVICIO ↗';
     button.addEventListener('click', () => openProject(services[index]));
     detail.querySelector('.service-body').append(button);
