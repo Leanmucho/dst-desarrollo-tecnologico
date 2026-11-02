@@ -25,3 +25,7 @@ La portada alterna cuatro frases cada 5,2 segundos con una transición de bandas
 Cuatro áreas: chatbots comerciales, automatización, sistemas/paneles y webs/integraciones. Cada servicio incluye problema, solución y ejemplo. Los encabezados conservan el despliegue nativo; el contacto se abre únicamente desde su botón. Las categorías del formulario coinciden con las nuevas áreas.
 
 La sección #demo muestra una captura real del repositorio independiente dst-chatbot-demo, ampliable en un diálogo. Presenta conversaciones, productos, clientes y borradores ficticios y permite solicitar una demostración. Se identifica expresamente como vista previa: la versión interactiva sigue local, con respuestas no generativas y sin sistemas reales conectados. Esta publicación no despliega el servidor Python de la demo.
+
+## Experiencias explicativas
+
+El selector de problemas recomienda una ruta de servicio y precarga esa categoría en el formulario. Rayos X activa cuatro puntos sobre la captura real, con explicaciones del catálogo, contexto, borrador y control del equipo; no simula un chat en vivo. El control Caos → Sistema revela dos vistas ilustrativas de una solicitud de presupuesto. Las tres interacciones son locales, funcionan con teclado y respetan el control de efectos y movimiento reducido. Los ejemplos incluyen empresas de servicios, turnos y presupuestos, además de comercios con productos.
