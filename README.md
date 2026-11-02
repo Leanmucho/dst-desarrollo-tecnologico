@@ -19,3 +19,9 @@ Referencias conceptuales de diseño: https://eloyb.design/ y https://www.rejouic
 ## Movimiento de portada
 
 La portada alterna cuatro frases cada 5,2 segundos con una transición de bandas glitch. La animación se pausa fuera de pantalla, con menús/diálogos abiertos, en pestañas ocultas o con movimiento reducido. La estela de partículas del mouse se retiró a pedido del usuario. Se conserva el cursor circular original y la rotación de frases.
+
+## Servicios y presentación de la demo
+
+Cuatro áreas: chatbots comerciales, automatización, sistemas/paneles y webs/integraciones. Cada servicio incluye problema, solución y ejemplo. Los encabezados conservan el despliegue nativo; el contacto se abre únicamente desde su botón. Las categorías del formulario coinciden con las nuevas áreas.
+
+La sección #demo muestra una captura real del repositorio independiente dst-chatbot-demo, ampliable en un diálogo. Presenta conversaciones, productos, clientes y borradores ficticios y permite solicitar una demostración. Se identifica expresamente como vista previa: la versión interactiva sigue local, con respuestas no generativas y sin sistemas reales conectados. Esta publicación no despliega el servidor Python de la demo.

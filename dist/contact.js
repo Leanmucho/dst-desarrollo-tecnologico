@@ -24,7 +24,7 @@
     glitch();
     form.elements.name.focus({ preventScroll: true });
   }
-  const services = ['Software a medida', 'Automatización', 'IA aplicada', 'Integraciones'];
+  const services = ["Chatbots y asistentes comerciales","Automatización de tareas","Sistemas y paneles a medida","Webs e integraciones"];
   document.querySelectorAll('.service-list details').forEach((detail, index) => {
     // El encabezado conserva el comportamiento nativo de details: mouse,
     // Enter y Espacio muestran/ocultan el servicio sin abrir el contacto.
@@ -39,7 +39,7 @@
   });
   document.querySelectorAll('[data-project-open]').forEach(link => link.addEventListener('click', event => {
     event.preventDefault();
-    openProject('Necesito orientación');
+    openProject(link.dataset.projectService || 'Necesito orientación');
   }));
   document.querySelector('#projectClose').addEventListener('click', () => dialog.close());
   dialog.addEventListener('close', () => {
