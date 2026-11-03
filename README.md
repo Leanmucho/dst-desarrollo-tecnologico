@@ -29,3 +29,12 @@ La sección #demo muestra una captura real del repositorio independiente dst-cha
 ## Experiencias explicativas
 
 El selector de problemas recomienda una ruta de servicio y precarga esa categoría en el formulario. Rayos X activa cuatro puntos sobre la captura real, con explicaciones del catálogo, contexto, borrador y control del equipo; no simula un chat en vivo. El control Caos → Sistema revela dos vistas ilustrativas de una solicitud de presupuesto. Las tres interacciones son locales, funcionan con teclado y respetan el control de efectos y movimiento reducido. Los ejemplos incluyen empresas de servicios, turnos y presupuestos, además de comercios con productos.
+
+
+### SEO de marca
+
+La portada identifica a DST — Desarrollo Tecnológico en texto visible, título, descripción, canonical, Open Graph y JSON-LD (WebSite, Organization, WebPage y servicios reales). `dist/robots.txt` permite rastreo y declara `dist/sitemap.xml`, que contiene solo la portada canónica; las anclas no son páginas independientes. No se agregaron reseñas, clientes ni acreditaciones ficticias.
+
+La propiedad de prefijo URL `https://dst.acunaleandro3.chatgpt.site/` se agregó en Google Search Console con la cuenta del titular. La portada incluye la etiqueta de verificación real proporcionada por Google (es pública y debe conservarse). El sitemap debe enviarse en esa propiedad después de verificarla. No se usa Google Analytics ni se agrega seguimiento de visitantes.
+
+Acceso público: la solicitud HTTP con User-Agent de navegador respondió 200 sin X-Robots-Tag; el cliente Python predeterminado y la herramienta web no pudieron acceder. Puede haber filtrado de tráfico automatizado en la infraestructura; comprobar con la prueba en vivo de Search Console. Un robots permisivo no elimina bloqueos de infraestructura. Indexación y ranking dependen de Google; no se garantiza posición por la sigla DST.
